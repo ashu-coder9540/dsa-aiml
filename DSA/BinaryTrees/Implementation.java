@@ -27,7 +27,7 @@ public class Implementation {
    private static void preOrder(Node root){
 
     // Base case
-        if(root == null) return;
+        if(root == null) return;    
     // self work
         System.out.print(root.val + " ");
     // recursive work

@@ -1,11 +1,11 @@
 import java.util.*;
 
 //1. Comparable Interface
-/*Belongs to java.lang package.
+/* Belongs to java.lang package.
 Provides natural ordering of objects.
-A class implements Comparable<T> and overrides the compareTo() method.*/
+A class implements Comparable<T> and overrides the compareTo() method. */
 
-/*class Student implements Comparable<Student> {
+/* class Student implements Comparable<Student> {
     int rollNo;
     String name;
     int marks;
@@ -41,7 +41,7 @@ public class CompareObjects {
             System.out.println(s.rollNo + " " + s.name);
         }
     }
-}*/
+} */
 
 //2. Comparator Interface
 /*Belongs to java.util package.
@@ -52,7 +52,7 @@ Defines the method compare().*/
 }
  */
 
-/*class Student {
+/* class Student {
     int rollNo;
     String name;
     int marks;
@@ -90,7 +90,7 @@ public class ComparatorDemo {
             System.out.println(s.marks + " " + s.name);
         }
     }
-}*/
+} */
 
 import java.util.*;
 
@@ -140,7 +140,7 @@ public class ComparatorTrickDemo {
     }
 }
 // Lambda Expressions in Java (Introduced in Java 8)
-/*code with anonymous class:
+/* code with anonymous class:
 
 Collections.sort(list, new Comparator<Student>() {
     @Override

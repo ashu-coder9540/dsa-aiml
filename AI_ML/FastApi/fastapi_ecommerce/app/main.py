@@ -1,9 +1,7 @@
-import logging
+
 from fastapi import FastAPI, HTTPException, Query
 from service.products import get_all_products
 
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -11,6 +9,7 @@ app = FastAPI()
 @app.get("/")                    
 def root():
     return {"message": "Welcome to the FastAPI E-commerce application!"}
+
 
 # @app.get("/products")
 # def get_products():
