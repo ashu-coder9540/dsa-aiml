@@ -77,5 +77,8 @@ public class StableBinary {
         int zero2 = 3, one2 = 3, limit2 = 2;
         System.out.println(numberOfStableArrays(zero1, one1, limit1)); // Expected output: 1
         System.out.println(numberOfStableArrays(zero2, one2, limit2)); // Expected output: 14
+
+        System.out.println(numberOfStableArraysBottomUp(zero1, one1, limit1)); // Expected output: 1
+        System.out.println(numberOfStableArraysBottomUp(zero2, one2, limit2)); // Expected output: 14
     }
 }
